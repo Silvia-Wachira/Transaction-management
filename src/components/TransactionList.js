@@ -13,6 +13,7 @@ const TransactionList = () => {
         fetch("https://infra.devskills.app/api/accounting/transactions")
                 .then(res => res.json())
                 .then(data => setTransactions(data))
+                // console.log(data)
             }
             
         return (

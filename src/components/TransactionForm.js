@@ -30,7 +30,7 @@ const TransactionForm = () => {
         <form onSubmit={handleSubmit} className='w-[250px] flex flex-col text-black gap-2 items-center '> 
             <input  className='border rounded p-1' placeholder='Account ID' data-type="account-id"/>
             <input  className='border rounded p-1' placeholder='Amount' data-type="amount"/>
-            <input className='bg-blue-500 text-white rounded p-1' data-type="transaction-submit" type="submit"/>
+            <input className='bg-green-500 text-white rounded p-1' data-type="transaction-submit" type="submit"/>
         </form>
 
     </div>

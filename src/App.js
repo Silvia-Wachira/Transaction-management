@@ -1,10 +1,12 @@
 import './App.css';
 import TransactionForm from './components/TransactionForm';
 import TransactionList from './components/TransactionList';
+import Navbar from './components/Navbar'
 
 function App() {
   return (
     <div className="flex h-screen p-5">
+      <Navbar />
 
       <div className='basis-1/4' >
         <TransactionForm />
